@@ -9,7 +9,7 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL"
+name: "Advanced Python Functions"
 
 on:
   push:
@@ -21,6 +21,12 @@ on:
     - cron: '23 18 * * 5'
 
 jobs:
+  test_pull_request:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: Checkout repository
+    - uses: actions/checkout@v3
+  
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
@@ -35,10 +41,6 @@ jobs:
         language: [  ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
