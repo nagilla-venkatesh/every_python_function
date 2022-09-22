@@ -66,5 +66,7 @@ To remove items from an iterable object, use a filter function.
 # 20. float()
 Return a Python floating point number built from the given number.
 
+# 21. format()
+A value that you specify is given a format.
 
 
