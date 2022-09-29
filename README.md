@@ -69,4 +69,44 @@ Return a Python floating point number built from the given number.
 # 21. format()
 A value that you specify is given a format.
 
+# 22. frozenset()
+Gives back an object with the name frozenset.
+
+# 23. getattr()
+The value of the attribute that was provided is returned by this function (property or method)
+
+# 24. globals()
+This function takes the current global symbol table and returns it as a dictionary.
+
+# 25. hasattr()
+Returns True if the given object has the given attribute, method, or property.
+
+# 26. help()
+Functions to run the built-in help system.
+
+# 27. hex()
+Performs the conversion of an integer to its corresponding value in hexadecimal.
+
+# 28. id()
+This function gives back the object’s id.
+
+# 29. input()
+This function is accepting input from the user.
+
+# 30. int()
+Returns an integer number
+
+# 31. isinstance()
+Returns True if the object given is a copy of the object given.
+
+# 32. issubclass()
+Python issubclass() returns True if the class you choose is a subclass of the object you choose.
+
+# 33. iter()
+Returns an object with an iterator.
+
+
+
+
+
 
