@@ -105,6 +105,14 @@ Python issubclass() returns True if the class you choose is a subclass of the ob
 # 33. iter()
 Returns an object with an iterator.
 
+# 34. hash()
+The value of the object’s hash that was supplied is returned.
+
+# 35. len()
+Returns an object’s length.
+
+
+
 
 
 
